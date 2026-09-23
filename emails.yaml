@@ -1,0 +1,9 @@
+name: Email
+description: Access Gmail and Outlook.
+runtime: composite
+compositeConfig:
+  componentServers:
+    - catalogEntryID: https://github.com/obot-platform/obot::obot-gmail
+      toolPrefix: gmail_
+    - catalogEntryID: https://github.com/obot-platform/obot::obot-outlook
+      toolPrefix: outlook_
