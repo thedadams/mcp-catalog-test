@@ -5,11 +5,11 @@ description: Access Gmail and Outlook.
 components:
   - id: default-gmail-8a99d8be
     name: Gmail
-    mcpServerCatalogEntryKey: github.com/obot-platform/mcp-catalog::obot-gmail
+    mcpServerCatalogEntryKey: https://github.com/obot-platform/mcp-catalog::obot-gmail
     toolPrefix: gmail_
   - id: default-outlook-841b850d
     name: Outlook
-    mcpServerCatalogEntryKey: github.com/obot-platform/mcp-catalog::obot-outlook
+    mcpServerCatalogEntryKey: https://github.com/obot-platform/mcp-catalog::obot-outlook
     toolPrefix: outlook_
 profiles:
   - name: acr1-everything
