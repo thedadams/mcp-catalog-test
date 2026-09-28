@@ -1,9 +1,0 @@
-name: Email
-description: Access Gmail and Outlook.
-runtime: composite
-compositeConfig:
-  componentServers:
-    - catalogEntryID: github.com/obot-platform/mcp-catalog::obot-gmail
-      toolPrefix: gmail_
-    - catalogEntryID: github.com/obot-platform/mcp-catalog::obot-outlook
-      toolPrefix: outlook_
